@@ -1,0 +1,14 @@
+{
+    "name": "Production",
+    "description": "The nodes in this environment will be Production webserver",
+    "chef_type": "environment",
+    "json_class": "Chef::Environment",
+    "default_attributes": {
+    },
+    "override_attributes": {
+    },
+    "cookbook_versions": {
+	"yum": "= 5.1.0",
+        "lampstack": "= 0.1.0"
+    }
+}

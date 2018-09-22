@@ -1,0 +1,14 @@
+{
+    "name": "webserver",
+    "description": "On applying this role the node will converted to webserver",
+    "chef_type": "role",
+    "json_class": "Chef::Role",
+    "default_attributes": {
+    },
+    "override_attributes": {
+    },
+    "run_list": [
+        "recipe[yum]",
+	"recipe[lampstack]"
+    ]
+}
